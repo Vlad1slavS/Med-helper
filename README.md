@@ -1,8 +1,6 @@
 # API Documentation
 
-## Endpoint: /api
-
-### Метод: GET
+### Метод: GET (/api)
 
 #### Параметры запроса:
 - **user_id**: (обязательный) Идентификатор пользователя. Используется для персонализации ответа.  
@@ -14,11 +12,10 @@
   - Пример: `"start"`, `"stop"`
 
 #### Ответ:
-##### Успешный ответ (200):
+
+##### Успешный ответ (200 OK)
+```json
 {
-  "status": "success",
-  "message": "Action executed successfully.",
-  "data": {
-    "result": "Some result data"
-  }
+  "status": "ok",
+  "message": "timestamp"
 }
