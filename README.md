@@ -14,11 +14,12 @@
 #### Ответ:
 
 ##### Успешный ответ (200 OK)
-`json
+```json
 {
   "status": "ok",
   "message": "timestamp"
 }
+
 
 ### Метод: GET (/api)
 
